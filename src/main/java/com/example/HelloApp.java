@@ -6,7 +6,7 @@ public class HelloApp {
         if (name == null || name.trim().isEmpty()) {
             name = "nieznajomy";
         }
-        return "Witaj, " + name + "!";
+        return "Cześć, " + name + "!";
     }
 
     public static void main(String[] args) {

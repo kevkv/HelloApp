@@ -7,8 +7,8 @@ public class AppTest {
 
     @Test
     public void testCreateGreeting() {
-        assertEquals("Witaj, Kevin!", HelloApp.createGreeting("Kevin"));
-        assertEquals("Witaj, nieznajomy!", HelloApp.createGreeting(""));
-        assertEquals("Witaj, nieznajomy!", HelloApp.createGreeting(null));
+        assertEquals("Cześć, Kevin!", HelloApp.createGreeting("Kevin"));
+        assertEquals("Cześć, nieznajomy!", HelloApp.createGreeting(""));
+        assertEquals("Cześć, nieznajomy!", HelloApp.createGreeting(null));
     }
 }
